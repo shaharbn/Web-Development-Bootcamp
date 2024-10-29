@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+.hero-container {
+    background-color: #B7E0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10%;
+    color: #22a8f5;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+p {
+    margin: 0;
+}
+
+.hero-container > div > p {
+    font-size: 2rem;
+}
+
+#profile-picture {
+    border-radius: 50%;
+}
+
+
+.profile-container {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+h2 {
+    color: #22a8f5;
+    font-size: 2rem;
+}
+
+.profile-container > p {
+    font-size: 18px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+
+.skills-conainter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-conainter > div {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+progress {
+    width: 75%;
+}
+
+.get-in-touch {
+    background-color: #B7E0FF;
+    color: #22a8f5;
+    padding-bottom: 20px;
+}
+
